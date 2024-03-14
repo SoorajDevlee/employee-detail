@@ -1,0 +1,51 @@
+.header {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.header .logoBox img {
+  width: 280px;
+  height: 100px;
+}
+
+.header .navBar {
+  display: flex;
+  list-style: none;
+}
+
+.header .navBar .menuItem {
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.header .navBar .addBtn {
+  border: 2px solid #a3c0c4;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 6px 8px;
+  margin-top: -6px;
+  transition: ease 0.5s;
+}
+
+.header .navBar .addBtn:hover {
+  border: 2px solid #a3c0c4;
+  background-color: #a3c0c4;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 6px 8px;
+  margin-top: -6px;
+}

@@ -1,0 +1,67 @@
+.employeeBox {
+  width: 555px;
+  margin: 0 auto;
+}
+
+.actionBox {
+  position: relative;
+}
+
+.actionBox span {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+
+.actionBox span {
+  cursor: pointer;
+}
+
+.profileContainer {
+  margin-top: 20px;
+  display: flex;
+  border: 2px solid #a3c0c4;
+  margin-bottom: 40px;
+  border-radius: 4px;
+  box-shadow: 0px 8px 12px rgba(163, 192, 196, 0.5);
+}
+
+.imgContainer {
+  width: 30%;
+}
+
+.imgContainer h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px 8px 8px;
+}
+
+.imgContainer img {
+  width: 100%;
+  border-bottom-right-radius: 10px;
+  height: 135px;
+  object-fit: cover;
+}
+
+.empDetailContainer {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.leftColMeta {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 4px 0px;
+}
+
+.leftColMeta .titleName {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.leftColMeta h3 {
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: normal;
+}
